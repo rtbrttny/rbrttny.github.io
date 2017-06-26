@@ -1,0 +1,50 @@
+style.css
+
+h1{
+	text-align: left;
+}
+
+nav{
+	padding: 300px;
+	font-family: helvetica;
+	color: grey;
+	vertical align: baseline;
+}
+
+p{
+	font-family: helvetica;
+	color: black;
+	font-size: 20px;
+	margin: 10px auto;
+}
+
+body{
+	background color: #c8deec;	
+	padding: 180px;
+	margin: 20px;
+	color: #887
+}
+
+a{
+	font-family: helvetica;
+	color: #887;
+	font-style: none;
+	text-align: center;
+}
+
+#navbar{
+
+	padding: 5px auto;
+}
+h1{
+	font-family: helvetica;
+}
+img{
+	size: 100px;
+}
+
+h2{
+	font-family: helvetica;
+}
+
+

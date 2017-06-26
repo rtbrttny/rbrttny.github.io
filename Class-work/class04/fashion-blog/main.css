@@ -1,0 +1,22 @@
+text{
+    color: #444444;
+    font: Lato;
+    line-height: 1.5; 
+}
+
+    img{
+	display: block;
+}
+
+h2{
+	color: black;
+}
+p{
+    720px wide
+    54px of padding
+    solid, left, 6px, border, #dddddd
+}
+
+link{
+	color: #dddddd;
+}
