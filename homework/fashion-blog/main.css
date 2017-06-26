@@ -10,11 +10,15 @@ text{
 
 h2{
 	color: black;
+	font: Lato;
 }
+
+#navbar
+	color: #dddddd;
+}
+
 p{
-    720px wide
-    54px of padding
-    solid, left, 6px, border, #dddddd
+    padding: 54px;
 }
 
 link{
