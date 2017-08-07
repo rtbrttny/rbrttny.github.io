@@ -1,0 +1,414 @@
+html {
+	font-size: 15px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+}
+
+/* Text Styles */
+h1 {
+	font-size: 2rem;
+	line-height: 1;
+	font-weight: 400;
+/*	border: solid blue;*/
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-size: .7rem;
+	text-align: center
+}
+
+#square {
+	/*width: 100px;
+	height: 100px;*/
+	background: grey;
+	background-size: cover;
+	overflow: hidden;
+	padding: 28px;
+	width: 100%;
+	height: 1200px;
+}
+
+.firstwrapper {
+  display: grid;
+  grid-template-columns: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+  grid-gap: 5px;
+/*  background-color: #fff;*/
+  color: #444;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+  grid-gap: 20px;
+/*  background-color: #fff;*/
+  color: #444;
+  padding: 10px;
+}
+
+.box {
+  background-color: #444;
+  color: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.circle {
+	width: 10px;
+	height: 10px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+/* Shared Styles */
+
+/*.page-wrap a{
+	width: 960px;
+	width: 100%;
+	margin: 38;
+}*/
+.page-wrap{
+	/*border: solid red;*/
+}
+
+/* Header Styles */
+#page-header {
+	background: white;
+	color: black;
+	overflow: hidden;
+	/*border-bottom: 4px solid yellow;*/
+	margin-top: 20px;
+	padding: 0 28px;
+	width: 100%;
+	text-align: center;
+}
+
+.menu {
+	margin-left: 200px;
+	margin-top: 90px;
+	padding: 20px;
+	color: black;
+	text-decoration: none;
+/*	border: solid purple;*/
+}
+
+li{
+	padding: 12px;
+	/*margin-left: 84px;*/
+	/*float: center;*/
+}
+
+/*FLEXBOX*/
+
+.flexchild{
+/*	flex: 1;*/
+	width: <property unused>
+    height: 150px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+}
+
+.flexchild img{
+	flex: 1;
+    height: 120px;
+    border: 20px;
+}
+
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: baseline;
+}
+    
+/*.falsecolor img{*/
+	
+/*	height: 500px;*/
+/*	background: url(images/falsecolormerged.jpg) center center no-repeat;*/
+/*	background-size: cover;
+	overflow: hidden;
+}*/
+
+.falsecolor {
+	background: url(../images/falsecolormerged.png) center center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	padding: 28px;
+	width: 100%;
+	height: 1200px;
+}
+
+
+.blurb p{
+	color: white;
+}
+.blurb {
+	background: rgba(.8);
+	margin-top: 294px;
+	width: 200px;
+	/*margin: 0 auto;*/
+	/*padding: 36px;*/
+	float: right;
+	/*box-shadow: 0 0 5px rgba(0,0,0,.75);*/
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: baseline;
+}
+
+/*.flex-items-default {
+    width: 300px;
+    height: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+}*/
+    
+ /*.flex-item-1 {
+    width: <property unused>
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+}
+  
+ .flex-item-2 {
+    width: <property unused>
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+}
+  
+ .flex-item-3 {
+    width: <property unused>
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+}
+  
+ .flex-item-4 {
+    width: <property unused>
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+}
+  
+ .flex-item-5 {
+    width: <property unused>
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+}
+  
+ .flex-item-6 {
+    width: <property unused>
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+}
+  
+ .flex-item-7 {
+    width: <property unused>
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+}
+  
+ .flex-item-8 {
+    width: <property unused>
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+}
+  
+ .flex-item-9 {
+    width: <property unused>
+    height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+}*/
+
+
+#page-header h1 {
+	float: center;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+	margin: 20px 0 0 0;
+}
+
+
+li :hover {
+	color: black;
+}
+
+/* Tagline Styles */
+/*.tagline {
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	margin: 0;
+	padding: 20px 28px;
+	font-size: 25px;
+	line-height: 20px;
+	font-style: italic;
+	background: #C6C6C6;
+	border-top: 1px solid #AAA;
+}
+
+.tagline del {
+	color: #999;
+}
+
+.tagline ins {
+	text-decoration: none;
+	border-bottom: 3px solid yellow;
+}*/
+
+/* Banner */
+.firstbanner {
+	background: url(../images/line.png) /*center center repeat 4*/;
+	width: 70%;
+	margin-top: 1px;
+	overflow: hidden;
+	padding: 2px;
+	
+	/*border: 10px;*/
+}
+
+.secondbanner {
+	background: url(../images/line.png) /*center center repeat 4*/;
+	width: 70%;
+	margin: 1px;
+	overflow: hidden;
+	padding: 2px;
+}
+
+.thirdbanner {
+	background: url(../images/line.png) /*center center repeat 4*/;
+	width: 70%;
+	margin: 1px;
+	overflow: hidden;
+	padding: 2px;
+}
+
+.fourthbanner {
+	background: url(../images/line.png) /*center center repeat 4*/;
+	width: 70%;
+	margin: 1px;
+	overflow: hidden;
+	padding: 2px;
+}
+
+/*.blurb {
+	background: rgba(255,255,255,.8);
+	width: 350px;
+	margin: 0 auto;
+	padding: 36px;
+	float: right;
+	box-shadow: 0 0 5px rgba(0,0,0,.75);
+}*/
+
+
+.distcontatiner img {
+	display:inline-block;
+}
+
+/*Shared styles*/
+/*.distcontainer{
+	display:inline-block;
+}*/
+
+/* Footer */
+footer {
+	background: white;
+	color: black;
+	padding: 20px 30px;
+
+}
+/*
+For small screens only 600px*/
+@media (max-width: 600px) {
+		h1, p, li, footer{
+			font-size: 5px;
+		}
+
+	.page-wrap{
+		/*display: block;*/
+		/*padding: 20px 15px;*/
+		width: 100%;
+	}
+	
+	#page-header{
+		border-right: 40px;
+		font-size: 5px;
+	}
+
+	#menu{
+		width: 100%;
+	}
+	
+	.footer{
+		width: 100%;
+	}
+
+	.firstbanner{
+		width: 60%;
+		float: none;
+		border: 0;
+	}
+
+	.secondbanner{
+		width: 60%;
+		float: none;
+		border: 0;
+	}
+
+	.thirdbanner{
+		width: 60%;
+		float: none;
+		border: 0;
+	}
+
+	.fourthbanner{
+		width: 60%;
+		float: none;
+		border: 0;
+	}
+
+	nav{
+	float: none;
+	text-align: left;
+	width: 90%;
+	/*margin-left: 5px;*/
+	}
+
+
+}
+
+
+
+
