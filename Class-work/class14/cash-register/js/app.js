@@ -16,9 +16,6 @@
 // $(document).ready(function () {
 	var total = 0;
 
-
-
-
 	$('form').submit(function(e){
 		e.preventDefault();
 

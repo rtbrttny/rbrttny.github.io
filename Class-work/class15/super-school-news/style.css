@@ -68,4 +68,24 @@ for samll screens only*/
 		width: 100%;
 		float: none; 
 	}
+
+article:nth-child(1) {
+	margin-bottom: 1%;
+	margin-bottom: 0%;
+}
+
+header h1, header nav{
+	float: none;
+	text-align: center;
+}
+
+
+<meta name="viewport" content="initial-scale=1">
+Add Comment
+
+
+
+
+
+
 }
