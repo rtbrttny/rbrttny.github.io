@@ -44,29 +44,24 @@ a {
 }
 
 #page-header {
-  /*border: 1px solid yellow;*/
-  height: 150px;
-  /*float: left;*/
-  /*display: flex;*/
-  align-items: center;
-  justify-content: center;
+  /*text-align: center;*/
   letter-spacing: 5px;
   position: relative;
-  padding: 20px;
-  top:90px;
-  left:432px;
+  padding-top: 45px;
+  /*border: 1px solid red;*/
+  padding-left: 82px;
 }
 
 #page-header h1 {
   color: white;
   font-family: 'Open Sans', Arial;
   font-size: 20px;
-  display: inline-block;
-  padding-right: 648px;
+ /* text-align: */
+
 }
 
 section.main {
-  width: 1630px;
+  /*width: 1630px;*/
  /* margin: 0 auto;*/
   position: relative;
  /* height: 84%;*/
@@ -94,10 +89,10 @@ section.main {
   float: left;
   position: relative;*/
 }
-
+/*
 .graphic{
   float: right;
-}
+}*/
 
 
 aside.graphic {
@@ -360,11 +355,12 @@ circle {
 p{
   color: grey;
   font-size: 10px;
-  display: inline-block;
+  t/*ext-align: center;*/
+  /*display: inline-block;*/
   /*padding-right: 648px;*/
-  position: relative;
+/*  position: relative;
   left:484px;
-  bottom: 60px;
+  bottom: 60px;*/
 
 }
 
@@ -389,6 +385,7 @@ span{
   position: relative;
   /*bottom: 50px;
   margin-left: 50px;*/
+  transition: all 1s;
 }
 
 
